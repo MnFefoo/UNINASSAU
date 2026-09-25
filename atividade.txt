@@ -1,0 +1,37 @@
+COMANDOS GIT
+
+git init - Inicia um repositório Git no diretório atual
+git clone <url> - Clona um repositório remoto
+git status - Mostra o estado dos arquivos (modificados, staged, etc.)
+git add <arquivo> - Adiciona arquivo(s) à área de staging
+git add . - Adiciona todos os arquivos modificados
+git commit -m "mensagem" - Registra as mudanças com uma mensagem
+git log - Mostra o histórico de commits
+git diff - Mostra diferenças entre versões dos arquivos
+git branch - Lista, cria ou apaga branches
+git checkout <branch> - Troca de branch
+git checkout -b <branch> - Cria e troca para uma nova branch
+git switch <branch> - Alternativa moderna ao checkout para trocar de branch
+git merge <branch> - Mescla uma branch na branch atual
+git rebase <branch> - Reaplica commits sobre outra base
+git stash - Guarda mudanças não commitadas temporariamente
+git stash pop - Recupera as mudanças guardadas
+git reset - Desfaz commits/staging (modos: --soft, --mixed, --hard)
+git revert <commit> - Cria um commit que desfaz outro commit
+git pull - Busca e mescla mudanças do remoto
+git fetch - Busca mudanças do remoto sem mesclar
+git push - Envia commits para o repositório remoto
+git remote -v - Lista os repositórios remotos configurados
+git tag - Cria marcações (versões) em commits
+
+COMANDOS/FLUXO GITHUB
+
+gh repo create - Cria um repositório no GitHub via CLI
+gh repo clone <repo> - Clona um repositório via CLI do GitHub
+gh pr create - Abre um Pull Request
+gh pr merge - Mescla um Pull Request
+gh issue create - Cria uma issue
+Fork - Cria uma cópia do repositório na sua conta
+Pull Request (PR) - Solicita a integração de mudanças de uma branch/fork
+Issues - Rastreamento de bugs, tarefas e sugestões
+Actions - Automação de CI/CD (testes, deploy, etc.)
